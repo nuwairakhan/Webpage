@@ -1,0 +1,63 @@
+@media screen and (min-width: 600px) {
+    .box_1 ,.box_2, .box_3{ 
+
+        height: 1250px;
+        background-color: black;
+    }    
+}
+    
+
+#header{
+    background-color: beige;
+    display: flex;
+}
+.logo{
+    width: 30%;
+    height: 120px;
+}
+.nav_bar{
+width: 70%;
+}
+li{
+    display: inline;
+    
+}
+.box{
+    display: flex;
+    margin: 10px;
+
+}
+.box_1 ,.box_2, .box_3{ 
+    border: 2px solid black;
+    width: 33.5%;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    text-align: center;
+    box-shadow: 0PX 10PX 2PX black;
+    text-shadow: 2px 0px 5px red;
+
+}
+.box_1:hover ,.box_2:hover, .box_3:hover{ 
+box-shadow: 10px 10px 0px;
+margin-left: 50px;
+}
+/* /* .bar{
+    display: flex;
+    margin-top: 50px;
+}
+.bar1,.bar2{
+    width: 50%;
+    margin-left: 10px;
+} */
+ /* .bar2{
+    background-color: rgba(229, 229, 208, 0.11);
+    height: 250px;
+ } */
+.bar1{
+    background-image:url("../img/Courses Details 10 x 20 hoding Final-01.jpg");
+
+height: 250px;    background-position: center;
+    background-size: cover;    
+}
